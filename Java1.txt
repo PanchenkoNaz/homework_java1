@@ -1,0 +1,101 @@
+public class Main {
+    byte globalByte;
+    short globalShort;
+    int globalInt;
+    long globalLong;
+    float globalFloat;
+    double globalDouble;
+    boolean globalBoolean;
+    char globalChar;
+
+    public static void main(String[] args) {
+
+    }
+}
+
+public static void main(String[] args) {
+    byte localByte;
+    short localShort;
+    int localInt;
+    long localLong;
+    float localFloat;
+    double localDouble;
+    boolean localBoolean;
+    char localChar;
+
+}
+
+
+public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Введите значение типа byte: ");
+    byte localByte = scanner.nextByte();
+
+    System.out.print("Введите значение типа short: ");
+    short localShort = scanner.nextShort();
+
+    System.out.print("Введите значение типа int: ");
+    int localInt = scanner.nextInt();
+
+    System.out.print("Введите значение типа long: ");
+    long localLong = scanner.nextLong();
+
+    System.out.print("Введите значение типа float: ");
+    float localFloat = scanner.nextFloat();
+
+    System.out.print("Введите значение типа double: ");
+    double localDouble = scanner.nextDouble();
+
+    System.out.print("Введите значение типа boolean: ");
+    boolean localBoolean = scanner.nextBoolean();
+
+    System.out.print("Введите значение типа char: ");
+    char localChar = scanner.next().charAt(0);
+
+    scanner.close();
+}
+
+
+System.out.println("byte: " + localByte);
+System.out.println("short: " + localShort);
+System.out.println("int: " + localInt);
+System.out.println("long: " + localLong);
+System.out.println("float: " + localFloat);
+System.out.println("double: " + localDouble);
+System.out.println("boolean: " + localBoolean);
+System.out.println("char: " + localChar);
+
+
+System.out.printf("byte: %d%n", localByte);
+System.out.printf("short: %d%n", localShort);
+System.out.printf("int: %d%n", localInt);
+System.out.printf("long: %d%n", localLong);
+System.out.printf("float: %f%n", localFloat);
+System.out.printf("double: %f%n", localDouble);
+System.out.printf("boolean: %b%n", localBoolean);
+System.out.printf("char: %c%n", localChar);
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    byte globalByte;
+    short globalShort;
+    int globalInt;
+    long globalLong;
+    float globalFloat;
+    double globalDouble;
+    boolean globalBoolean;
+    char globalChar;
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        byte localByte;
+        short localShort;
+        int localInt;
+        long localLong;
+        float localFloat;
+        double localDouble;
+        boolean local
